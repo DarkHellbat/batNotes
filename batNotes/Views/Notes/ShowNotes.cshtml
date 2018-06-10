@@ -3,25 +3,39 @@
 @using batNotes.Models
 @using batNotes.Controllers
 @{
-    ViewBag.Title = "ShowNotes";
+    ViewBag.Title = "Список заметок";
 }
 
 <h2>Список заметок</h2>
+<div style="padding: 20px;">
+    @Html.Partial("Filter", new NotesFilter())
+</div>
 <table border="1">
     <tr>
-       
-        <td>@Html.SortLink("Название", "Name", "ShowNotes", "Notes", new RouteValueDictionary { { "id", Model.Notes[0].Author.Id} })
-</td>
-       @*<td>Текст</td>*@
-         <td>@Html.SortLink("Дата создания", "Created", "ShowNotes", "Notes", new RouteValueDictionary { { "id", Model.Notes[0].Author.Id } })
-</td>
-        <td>@Html.SortLink("Дата изменения", "Changed", "ShowNotes", "Notes", new RouteValueDictionary { { "id", Model.Notes[0].Author.Id } })
-</td>
-        <td>@Html.ActionLink("+ заметка", "Create", "Notes")</td>
+        @if (Model.Notes.Count != 0)
+        {
+            <td>
+                @Html.SortLink("Название", "Name", "ShowNotes", "Notes", new RouteValueDictionary { { "id", Model.Notes[0].Author.Id } })
+            </td>
+            @*<td>Текст</td>*@
+            <td>
+                @Html.SortLink("Дата создания", "Created", "ShowNotes", "Notes", new RouteValueDictionary { { "id", Model.Notes[0].Author.Id } })
+            </td>
+            <td>
+                @Html.SortLink("Дата изменения", "Changed", "ShowNotes", "Notes", new RouteValueDictionary { { "id", Model.Notes[0].Author.Id } })
+            </td>
+         
+
+        }
+        else
+        {
+            <
+            <td>Пока заметок нет</td>
+
+
+        }
     </tr>
-    <div style="padding: 20px;">
-        @Html.Partial("Filter", new NotesFilter())
-    </div>
+   
    
     @foreach(var n in Model.Notes)
     {
@@ -43,5 +57,5 @@
  
 
 </table>
-
+@Html.ActionLink("+ заметка", "Create", "Notes")
 @Html.ActionLink("Назад", "Index", "Home")

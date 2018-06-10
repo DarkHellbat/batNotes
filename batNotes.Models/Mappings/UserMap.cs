@@ -23,7 +23,7 @@ namespace batNotes.Models.Mappings
                 Map(u => u.DateofBirth);
                 References(u => u.Avatar);
                 Map(u => u.Status);
-            References(u => u.Permission);
+            Map(u => u.Permission);
 
             }
      }

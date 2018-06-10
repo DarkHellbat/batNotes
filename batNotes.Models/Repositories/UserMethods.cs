@@ -39,7 +39,7 @@ namespace batNotes.Models.Repositories
         public User FindByLogin(string login)
         {
             var crit = session.CreateCriteria<User>();
-            crit.Add(Restrictions.Eq("Login", login));
+            crit.Add(Restrictions.Eq("UserName", login));
             try
             {
                 return crit.List<User>().FirstOrDefault();

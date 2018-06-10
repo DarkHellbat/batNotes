@@ -16,17 +16,20 @@ namespace batNotes.Models
         [Required]
         public string Password { get; set; }
         [Display(Name = "Фамилия")]
-        [Required]
+
         public string LastName { get; set; }
         [Display(Name = "Имя")]
-        [Required]
+
         public string FirstName { get; set; }
+        [Display(Name = "Отчество")]
         public string SecondName { get; set; }
         public File Avatar { get; set; }
 
         [Required]
         public string Email { get; set; }
+        [Display(Name = "Дата рождения")]
         public DateTime DateofBirth { get; set; }
+        [Display(Name = "Статус")]
         public Enum Status { get; set; }
     }
 }

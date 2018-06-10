@@ -1,25 +1,23 @@
-﻿@using batNotes.HtmlExtensions
-@using batNotes.Controllers
-@using batNotes.Models.Repositories
+﻿@model batNotes.Models.HomeViewModel
+    @using batNotes.Models
+
 @{
     ViewBag.Title = "Начальная страница";
 }
 
 <h2>Начальная страница</h2>
 @Html.ValidationSummary()
-@*@if (!Html.GetCurrentUser().Equals(null))
-{*@
-    @*@Html.ActionLink("Войти", "Login", "Account")*@
-
 
     @Html.ActionLink("Выйти", "LogOff", "Account")
-@*@{    var c = new UserMethods(ISession session);}*@
-<div>
-    @Html.ActionLink("Список пользователей", "Index", "User")
-</div>
-<div>
-    @Html.ActionLink("Создать нового пользователя", "CreateUser", "User")
-</div>
+@{if (Model.LoggedAs == Permission.Admin)
+    {
+        <div>
+            @Html.ActionLink("Список пользователей", "Index", "User")
+        </div>
+    } }
+
+
+
 <div>
     @Html.ActionLink("Перейти к заметкам", "ShowNotes", "Notes")
 </div>

@@ -10,18 +10,22 @@ namespace batNotes.Models
     {
         [Required]
         public long Id { get; set; }
+        [Display(Name = "Логин")]
         [Required]
         public string UserName { get; set; }
 
-        [Required]
-        public virtual string LastName { get; set; }
-        [Required]
-        public virtual string FirstName { get; set; }
-        public virtual string SecondName { get; set; }
-        public virtual File Avatar { get; set; }
-        [Required]
-        public virtual string Email { get; set; }
-        public virtual DateTime DateofBirth { get; set; }
-        public virtual Enum Status { get; set; }
+        [Display(Name = "Фамилия")]
+        public  string LastName { get; set; }
+        [Display(Name = "Имя")]
+        public  string FirstName { get; set; }
+        [Display(Name = "Отчество")]
+        public  string SecondName { get; set; }
+        public  File Avatar { get; set; }
+
+        public  string Email { get; set; }
+        [Display(Name = "Дата рождения")]
+        public  DateTime DateofBirth { get; set; }
+        [Display(Name = "Статус")]
+        public Status Status { get; set; }
     }
 }

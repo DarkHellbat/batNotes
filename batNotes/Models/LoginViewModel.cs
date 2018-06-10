@@ -9,10 +9,12 @@ namespace batNotes.Models
     public class LoginViewModel
     {
             [Required]
-            public string UserName { get; set; }
+        [Display(Name = "Логин")]
+        public string UserName { get; set; }
             [DataType(DataType.Password)]
             [Required]
-            public string Password { get; set; }
+        [Display(Name = "Пароль")]
+        public string Password { get; set; }
 
     }
 }

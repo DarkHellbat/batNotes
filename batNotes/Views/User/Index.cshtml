@@ -1,6 +1,6 @@
 ﻿@model batNotes.Models.UserListViewModel
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Список пользователей";
 }
 
 <h2>Список пользователей</h2>
@@ -13,12 +13,18 @@
     </tr>
     @foreach (var user in Model.Users)
     {
-        //@user.list.Add(user);
-        <tr>
+         <tr>
             <td>@user.Id</td>
             <td>@user.UserName</td>
+             <td>@user.Status</td>
             <td>@Html.ActionLink("Изменить", "Edit", "User", new { id = user.Id }, null)</td>
         </tr>
     }
 </table>
+<div>
+    @Html.ActionLink("Создать нового пользователя", "CreateUser", "User")
+</div>
+<div>
+    @Html.ActionLink("Назад", "Index", "Home")
+</div>
 

@@ -161,7 +161,6 @@
     <Compile Include="File.cs" />
     <Compile Include="Mappings\FileMap.cs" />
     <Compile Include="Mappings\NoteMap.cs" />
-    <Compile Include="Mappings\PermissionMap.cs" />
     <Compile Include="Mappings\UserMap.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Permission.cs" />

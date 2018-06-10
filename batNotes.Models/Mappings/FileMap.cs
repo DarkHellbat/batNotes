@@ -14,7 +14,7 @@ namespace batNotes.Models.Mappings
             Id(f => f.FileId).GeneratedBy.Identity();
             Map(f => f.Name).Length(100);
             Map(f => f.Content).Length(int.MaxValue);
-            Map(f => f.Type).Length(50);
+            Map(f => f.Type).Length(100);
 
         }
     }

@@ -12,6 +12,7 @@ namespace batNotes.Controllers
 {
     public class UserController : BaseController
     {
+       
         public UserController(UserMethods userRepository) :
            base(userRepository)
         {
@@ -37,10 +38,9 @@ namespace batNotes.Controllers
             if (ModelState.IsValid)
             {
                 User newUser = new User { UserName = model.UserName, FirstName = model.FirstName, SecondName = model.SecondName, LastName = model.LastName, Status = Status.Active };
-                if (CurrentUser == null || CurrentUser.Permission.PermissionLevel == 2)
-                {
-                    newUser.Permission.PermissionID = 2; //вот хз, будет ли работать
-                }
+        
+                    newUser.Permission = Permission.CommonUser; //вот хз, будет ли работать
+
                     var result = UserManager.CreateAsync(newUser, model.Password);
                 if (!result.Result.Succeeded)
                 {
@@ -71,6 +71,7 @@ namespace batNotes.Controllers
             user.LastName = model.LastName;
             user.SecondName = model.SecondName;
             user.UserName = model.UserName;
+            user.Status = model.Status;
             userRepository.Change(user);
             return RedirectToAction("Index", "Home");
         }
@@ -86,7 +87,8 @@ namespace batNotes.Controllers
                 LastName = user.LastName,
                 SecondName = user.SecondName,
                 DateofBirth=user.DateofBirth,
-                Email=user.Email
+                Email=user.Email,
+                Status=user.Status
             });
         }
     }

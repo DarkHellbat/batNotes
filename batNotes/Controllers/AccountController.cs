@@ -33,25 +33,32 @@ namespace batNotes.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = SignInManager.PasswordSignIn(model.UserName, model.Password, false, false);
-                if (result == SignInStatus.Success)
+                User user = userRepository.FindByLogin(model.UserName);
+                if (user.Status == Status.Active)
                 {
-                    return RedirectToAction("Index", "Home");
+                    var result = SignInManager.PasswordSignIn(model.UserName, model.Password, false, false);
+                    if (result == SignInStatus.Success)
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
+                   else
+                    {
+                        ModelState.AddModelError("", "Неверное имя пользователя или пароль");
+                    } 
                 }
                 else
-                {
-                    ModelState.AddModelError("", "Неверное имя пользователя или пароль");
-                }
+            {
+                ModelState.AddModelError("", "Учетная запись заблокирована");
+            }
+                
+               
             }
             return View(model);
+
         }
         // GET: Account
         public ActionResult Index()
         {
-            if (userRepository.FindByLogin("admin") == null)
-            {
-                CreateUser("admin", "123456");
-            }
             return View();
         }
         public ActionResult LogOff()
@@ -66,7 +73,9 @@ namespace batNotes.Controllers
             var result = UserManager.CreateAsync(user, Password);
             if (result.Result.Succeeded)
             {
-                SignInManager.SignIn(user, false, false);
+               user = userRepository.Load(1);
+                user.Permission = Permission.Admin;
+                user.Status = Status.Active;
                 return RedirectToAction("Login", "Account");
             }
             else

@@ -16,10 +16,13 @@ namespace batNotes.Controllers
         }
 
         // GET: Home
-        public ActionResult Index()
+        public ActionResult Index(HomeViewModel model)
         {
-           // user = CurrentUser;
-            return View();
+            if (CurrentUser.UserName == "admin")
+                model.LoggedAs = Permission.Admin;
+            else
+                model.LoggedAs = Permission.CommonUser;
+            return View(model);
         }
     }
 }
