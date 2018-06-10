@@ -1,0 +1,24 @@
+﻿@model batNotes.Models.UserListViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Список пользователей</h2>
+
+<table>
+
+    <tr>
+        <td>ID</td>
+        <td>Login</td>
+    </tr>
+    @foreach (var user in Model.Users)
+    {
+        //@user.list.Add(user);
+        <tr>
+            <td>@user.Id</td>
+            <td>@user.UserName</td>
+            <td>@Html.ActionLink("Изменить", "Edit", "User", new { id = user.Id }, null)</td>
+        </tr>
+    }
+</table>
+

@@ -1,0 +1,118 @@
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\batNotes.Models.dll.config
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\batNotes.Models.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\batNotes.Models.pdb
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Antlr3.Runtime.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Autofac.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Autofac.Integration.Mvc.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Autofac.Integration.Mvc.Owin.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Autofac.Integration.Owin.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\FluentNHibernate.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Iesi.Collections.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.Owin.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.Owin.Security.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Newtonsoft.Json.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\NHibernate.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\NHibernate.Mapping.Attributes.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Owin.Context.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Owin.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Remotion.Linq.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Remotion.Linq.EagerFetching.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\System.Web.Helpers.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\System.Web.Mvc.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\System.Web.Razor.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\System.Web.WebPages.Deployment.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\System.Web.WebPages.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\System.Web.WebPages.Razor.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Antlr3.Runtime.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Autofac.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Autofac.Integration.Mvc.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Autofac.Integration.Mvc.Owin.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Autofac.Integration.Owin.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\FluentNHibernate.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Iesi.Collections.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.Owin.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.Owin.Security.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Newtonsoft.Json.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\NHibernate.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\NHibernate.Mapping.Attributes.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Remotion.Linq.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Remotion.Linq.EagerFetching.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\System.Web.Helpers.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\System.Web.Mvc.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\System.Web.Razor.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\System.Web.WebPages.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\System.Web.WebPages.Deployment.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\System.Web.WebPages.Razor.xml
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\obj\Debug\batNotes.Models.csprojResolveAssemblyReference.cache
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\obj\Debug\batNotes.Models.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\obj\Debug\batNotes.Models.pdb
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+c:\Users\Admin\documents\visual studio 2015\Projects\batNotes\batNotes.Models\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\obj\Debug\batNotes.Models.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\obj\Debug\batNotes.Models.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\obj\Debug\batNotes.Models.pdb
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\batNotes.Models.dll.config
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\batNotes.Models.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\batNotes.Models.pdb
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Autofac.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Autofac.Integration.Mvc.Owin.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Autofac.Integration.Owin.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\FluentNHibernate.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Iesi.Collections.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.Owin.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\NHibernate.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\NHibernate.Mapping.Attributes.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Owin.Context.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Owin.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Remotion.Linq.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\System.Web.Razor.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Antlr3.Runtime.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Autofac.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Autofac.Integration.Mvc.Owin.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Autofac.Integration.Owin.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\FluentNHibernate.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Iesi.Collections.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.Owin.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\NHibernate.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\NHibernate.Mapping.Attributes.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Remotion.Linq.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\Remotion.Linq.EagerFetching.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\System.Web.Razor.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\Notes-master\batNotes.Models\bin\Debug\System.Web.WebPages.Razor.xml

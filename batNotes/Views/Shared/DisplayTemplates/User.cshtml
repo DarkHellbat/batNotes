@@ -1,0 +1,6 @@
+﻿@model batNotes.Models.User
+@if (Model != null)
+{
+    @(!string.IsNullOrEmpty(Model.LastName) ? $"{Model.LastName}({Model.UserName})" : Model.UserName)
+}
+

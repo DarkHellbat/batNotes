@@ -1,0 +1,47 @@
+﻿@model batNotes.Models.NotesListViewModel
+    @using batNotes.HtmlExtensions
+@using batNotes.Models
+@using batNotes.Controllers
+@{
+    ViewBag.Title = "ShowNotes";
+}
+
+<h2>Список заметок</h2>
+<table border="1">
+    <tr>
+       
+        <td>@Html.SortLink("Название", "Name", "ShowNotes", "Notes", new RouteValueDictionary { { "id", Model.Notes[0].Author.Id} })
+</td>
+       @*<td>Текст</td>*@
+         <td>@Html.SortLink("Дата создания", "Created", "ShowNotes", "Notes", new RouteValueDictionary { { "id", Model.Notes[0].Author.Id } })
+</td>
+        <td>@Html.SortLink("Дата изменения", "Changed", "ShowNotes", "Notes", new RouteValueDictionary { { "id", Model.Notes[0].Author.Id } })
+</td>
+        <td>@Html.ActionLink("+ заметка", "Create", "Notes")</td>
+    </tr>
+    <div style="padding: 20px;">
+        @Html.Partial("Filter", new NotesFilter())
+    </div>
+   
+    @foreach(var n in Model.Notes)
+    {
+        if (n.Name.Length > 30)
+        {
+          
+        }
+
+           <tr>
+            <td>@n.Name</td>
+            @*<td>@n.Text</td>*@
+            <td>@n.Created</td>
+            <td>@n.Changed</td>
+            <td>@Html.ActionLink("Просмотреть","ViewNote","Notes", new { id=n.NoteId}, null)</td>
+               <td>@Html.ActionLink("Открыть файл","GetFile","Notes", new { id = n.NoteId}, null)</td>
+            
+        </tr>
+    }
+ 
+
+</table>
+
+@Html.ActionLink("Назад", "Index", "Home")

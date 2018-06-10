@@ -1,0 +1,16 @@
+﻿@model batNotes.Models.NotesFilter
+@using (Html.BeginForm("ShowNotes", "Notes", FormMethod.Get))
+{
+    <div>
+        Название: @Html.EditorFor(m => m.Name)
+    </div>
+    <div>
+        Дата создания: @Html.EditorFor(m => m.CreationDate)
+    </div>
+    <div>
+        Дата изменения: @Html.EditorFor(m => m.ChangingDate)
+    </div>
+    <div>
+        <input type="submit" value="Поиск" />
+    </div>
+}

@@ -1,0 +1,57 @@
+﻿@model batNotes.Models.NoteViewModel
+
+@{
+    ViewBag.Title = "ViewNotes";
+}
+
+<h2>ViewNotes</h2>
+
+<div>
+    <h4>NoteViewModel</h4>
+    <hr />
+    
+    <dl class="dl-horizontal">
+        @Html.ActionLink("Изменить", "Edit", new { id = Model.NoteId }) 
+        <dd>@Html.DisplayFor(model=>model.NoteId)</dd>
+        <dd>
+    @Html.DisplayFor(model => model.Name)
+</dd>
+        <dt>Дата создания: </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Created)
+        </dd>
+        <dt>Дата изменения:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Changed)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Text)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Text)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>*@
+
+       
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Created)
+        </dt>*@
+
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Changed)
+        </dt>*@
+
+       
+
+    </dl>
+</div>
+<p>
+
+    @Html.ActionLink("Назад к списку", "ShowNotes")
+</p>
