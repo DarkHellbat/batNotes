@@ -79,7 +79,8 @@ namespace batNotes.Controllers
                 Name = note.Name,
                 Text = note.Text,
                 Changed = note.Changed,
-                Created = note.Created
+                Created = note.Created,
+               
             };
             return View(model);
         }
